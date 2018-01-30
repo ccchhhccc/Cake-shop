@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  height: 564px;
+  background: url(../imgs/footer_bg.png);
+  padding-top: 66px;
+}
+
+.foot {
+  width: 1263px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#f_img {
+  display: inline-block;
+  margin-bottom: 62px;
+}
+
+.f_dl {
+  text-align: center;
+  margin-bottom: 73px;
+}
+
+.f_dl dl {
+  border-right: 1px solid #f1e8d2;
+  display: inline-block;
+  color: #fff;
+  width: 330px;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.f_dl dl:last-of-type {
+  border: 0;
+}
+
+.f_dl dt {
+  font-size: 14px;
+}
+
+.f_dl dd {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.share {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.share a {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin: 0 22px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.qq {
+  background: url(../imgs/share.png) 11px 11px no-repeat;
+}
+
+.weibo {
+  background: url(../imgs/share.png) 9px -28px no-repeat;
+}
+
+.weixin {
+  background: url(../imgs/share.png) 10px -66px no-repeat;
+}
+
+.f_info {
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.f_info a {
+  color: #fff;
+}
+
+.f_info span {
+  color: #fff;
+  margin: 0 26px;
+}
+
+.foot p {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}

@@ -1,0 +1,77 @@
+#top {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+#main {
+  padding-top: 100px;
+}
+
+.loginmain {
+  width: 1263px;
+  margin: 0 auto;
+  height: 374px;
+  background: url(../../imgs/login_bg.jpg) center center;
+  padding: 70px 0;
+}
+
+.loginright {
+  width: 362px;
+  height: 374px;
+  float: right;
+  text-align: center;
+  margin-right: 190px;
+}
+
+.loginright h3 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #9c9f9f;
+  margin-bottom: 5px;
+}
+
+.loginright p {
+  font-size: 12px;
+  color: #9c9f9f;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.loginright input {
+  width: 360px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  text-indent: 15px;
+  outline: none;
+  margin: 7px 0;
+}
+
+.tologin {
+  display: block;
+  width: 360px;
+  height: 50px;
+  background: #b69b65;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.forgetpwd {
+  float: left;
+  font-size: 13px;
+}
+
+.registerAccound {
+  float: right;
+  font-size: 13px;
+}
+
+.loginmain .infomation {
+  text-align: left;
+  line-height: 20px;
+  font-size: 13px;
+}

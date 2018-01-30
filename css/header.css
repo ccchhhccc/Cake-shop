@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header, .head {
+  height: 100px;
+  border-top: 4px solid #afcbbd;
+  border-bottom: 1px solid #f7f7f7;
+  background: #fff;
+  z-index: 10;
+}
+
+.head {
+  margin: 0 auto;
+  width: 1263px;
+  border-top: 0;
+}
+
+#logo {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+#home {
+  float: left;
+  width: 32px;
+  height: 28px;
+  margin-left: 43px;
+  margin-top: 33px;
+}
+
+#nav {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#nav li {
+  padding: 0 20px;
+  float: left;
+}
+
+#nav li span {
+  text-align: center;
+  display: block;
+}
+
+.register {
+  float: right;
+  background: #a2c1b2;
+  margin-right: 8px;
+}
+
+.login {
+  float: right;
+  background: #daccb2;
+  margin-right: 23px;
+}
+
+.a {
+  width: 68px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.m {
+  font-size: 14px;
+  color: #7a9f8c;
+  line-height: 20px;
+}
+
+.s {
+  font-size: 10px;
+  color: #a8acc5;
+}
+
+#top {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}

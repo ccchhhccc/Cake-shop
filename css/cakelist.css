@@ -1,0 +1,175 @@
+body {
+  background: #f9fbfa;
+}
+
+#top {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+}
+
+#title {
+  width: 1263px;
+  height: 140px;
+  margin: 0 auto;
+  text-align: center;
+  color: #999999;
+  padding-top: 100px;
+}
+
+#title h3 {
+  font-size: 38px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+#title h6 {
+  font-weight: normal;
+}
+
+#bar {
+  width: 1263px;
+  height: 34px;
+  margin: 0 auto;
+  text-align: center;
+  color: #999999;
+}
+
+#bar p {
+  display: inline-block;
+}
+
+#bar a {
+  padding: 0 18px;
+  height: 32px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 32px;
+  font-size: 12px;
+  float: left;
+  margin-right: 3px;
+}
+
+#bar .active {
+  background: #daccb2;
+  color: #fff;
+}
+
+#select {
+  width: 1263px;
+  margin: 48px auto;
+}
+
+#select select {
+  width: 85px;
+  height: 32px;
+  background: url(../imgs/select_ico.png) 96% center no-repeat;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  padding-left: 15px;
+  border: 0;
+}
+
+.selectTaste {
+  margin-left: 75px;
+  margin-right: 2px;
+}
+
+#select .selectSize {
+  width: 68px;
+}
+
+.cakelist {
+  width: 1279px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cakelist li {
+  width: 303px;
+  background: #fff;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  margin: 0 8px 25px 8px;
+  cursor: pointer;
+}
+
+.cakelist .cakeimg {
+  display: block;
+  margin: 60px auto 110px auto;
+  width: 240px;
+  height: 240px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  color: #333333;
+  margin-top: 27px;
+  margin-bottom: 10px;
+}
+
+.e_title {
+  display: block;
+  text-align: center;
+  color: #999999;
+}
+
+.cakelist p {
+  height: 118px;
+  border-top: 1px solid #f1ece2;
+}
+
+.hot {
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  background: #afcbbd;
+  position: absolute;
+  border-radius: 50%;
+  font-style: normal;
+  bottom: -48px;
+  left: 20px;
+  transition: all 0.8s;
+}
+
+.shoppingcar {
+  position: absolute;
+  width: 26px;
+  height: 25px;
+  background: url(../imgs/a_cart.png);
+  bottom: -25px;
+  right: 32px;
+  transition: all 0.8s;
+}
+
+.solid {
+  height: 6px;
+  background: #dccfb6;
+  width: 0%;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.8s;
+  z-index: 2;
+  left: 50%;
+}
+
+li:hover .solid {
+  width: 100%;
+  left: 0;
+}
+
+li:hover .shoppingcar {
+  bottom: 36px;
+}
+
+li:hover .hot {
+  bottom: 26px;
+}

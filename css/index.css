@@ -1,0 +1,256 @@
+#top {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.swiper-container {
+  padding-top: 100px;
+}
+
+.swiper-slide > img {
+  width: 100%;
+  display: block;
+}
+
+#starproduct {
+  width: 1263px;
+  margin: 0 auto;
+  text-align: center;
+  height: 160px;
+  color: #7a9f8c;
+}
+
+#starproduct b {
+  font-size: 22px;
+  padding-top: 57px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+#starproduct span {
+  font-size: 12px;
+  display: block;
+}
+
+#starproduct_info {
+  width: 1263px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#starproduct_info > div {
+  float: left;
+  width: 631px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+#starproduct_info .bg {
+  width: 631px;
+  height: 500px;
+  transition: 0.5s;
+}
+
+#starproduct_info > div:hover .bg {
+  transform: scale(1.08);
+}
+
+.hl {
+  position: absolute;
+  width: 366px;
+  height: 188px;
+  top: 40px;
+  left: 50%;
+  margin-left: -182px;
+}
+
+.hr {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 40px;
+  left: 50%;
+  margin-left: -90px;
+}
+
+#starproduct_info > div > p {
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 305px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#starproduct_info > div > .masking {
+  position: absolute;
+  width: 631px;
+  height: 500px;
+  background: rgba(1, 1, 1, 0.2);
+  top: 0;
+}
+
+.more {
+  width: 96px;
+  position: absolute;
+  bottom: 80px;
+  height: 35px;
+  left: 50%;
+  margin-left: -48px;
+  transition: 0.5s;
+}
+
+.more em {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: 25px;
+}
+
+#starproduct_info span {
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  margin-left: -18px;
+}
+
+.more_left, .more_right {
+  position: absolute;
+  top: 18px;
+}
+
+.more:hover {
+  transform: scale(1.2, 1);
+}
+
+.more_left {
+  left: 0;
+}
+
+.more_right {
+  right: 0;
+}
+
+#ourproduct {
+  width: 1263px;
+  margin: 0 auto;
+  text-align: center;
+  height: 160px;
+  color: #7a9f8c;
+}
+
+#ourproduct b {
+  font-size: 22px;
+  padding-top: 57px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+#ourproduct span {
+  font-size: 12px;
+  display: block;
+}
+
+#fourproduct {
+  width: 1283px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+#fourproduct li {
+  width: 302px;
+  float: left;
+  margin: 0 9px;
+}
+
+#fourproduct li img {
+  display: block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+#fourproduct li p {
+  text-align: center;
+  padding-bottom: 18px;
+  padding-top: 16px;
+}
+
+#fourproduct li span {
+  display: block;
+  line-height: 24px;
+  font-size: 14px;
+  color: #b59a65;
+}
+
+#active {
+  width: 1263px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+#active > div {
+  width: 622px;
+  height: 400px;
+  position: relative;
+}
+
+#active > div > .bgimg {
+  width: 622px;
+  height: 400px;
+  position: absolute;
+}
+
+.news {
+  float: left;
+  background: #cdba98;
+}
+
+.note {
+  float: right;
+  background: #9cbdad;
+}
+
+.active {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  margin-left: -36px;
+}
+
+#active span {
+  font-size: 23px;
+  color: #fff;
+  position: absolute;
+  left: 255px;
+  top: 136px;
+}
+
+#active em {
+  font-size: 12px;
+  color: #fff;
+  font-style: normal;
+  position: absolute;
+  left: 250px;
+  top: 175px;
+}
+
+#active .note em {
+  left: 234px;
+}
+
+#active p {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  top: 234px;
+  line-height: 30px;
+}

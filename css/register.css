@@ -1,0 +1,156 @@
+#top {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+#registerbox {
+  width: 1263px;
+  height: 628px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.registerform {
+  float: left;
+  width: 625px;
+  height: 450px;
+  margin-left: 175px;
+  margin-top: 75px;
+  position: relative;
+}
+
+.registerform h3 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #9c9f9f;
+  margin-bottom: 5px;
+}
+
+.registerform em {
+  font-size: 12px;
+  color: #9c9f9f;
+  margin-bottom: 20px;
+  font-style: normal;
+  display: block;
+}
+
+.registerform input {
+  width: 360px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  text-indent: 15px;
+  outline: none;
+  margin: 7px 0;
+}
+
+.registerform .validataCode {
+  width: 220px;
+}
+
+.sendCode {
+  display: inline-block;
+  width: 122px;
+  height: 48px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  line-height: 48px;
+  font-size: 12px;
+  color: #9c9f9f;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9c9f9f;
+  margin-top: 15px;
+  float: left;
+}
+
+.read {
+  float: left;
+  margin-left: 15px;
+  margin-top: 18px;
+}
+
+.registerform > p {
+  overflow: hidden;
+  font-size: 13px;
+  color: #9c9f9f;
+}
+
+.registerform > p > a {
+  float: left;
+  margin-top: 18px;
+  color: #b69b65;
+}
+
+.btn {
+  display: block;
+  width: 360px;
+  height: 50px;
+  background: #b69b65;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.first {
+  position: absolute;
+  left: 315px;
+  top: 222px;
+}
+
+.second {
+  position: absolute;
+  left: 315px;
+  top: 287px;
+}
+
+.checkboxed {
+  position: absolute;
+  bottom: 87px;
+  display: none;
+}
+
+.registerform b {
+  font-style: normal;
+  font-size: 12px;
+  color: #999999;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+#go_login {
+  width: 150px;
+  height: 45px;
+  float: right;
+  margin-top: 280px;
+  margin-right: 163px;
+}
+
+.door {
+  float: left;
+  margin-right: 14px;
+}
+
+#go_login p {
+  font-size: 12px;
+  color: #999999;
+  line-height: 24px;
+  width: 80px;
+  float: left;
+}
+
+#go_login a {
+  font-size: 12px;
+  color: #b69b65;
+  line-height: 24px;
+  margin-left: 2px;
+}
