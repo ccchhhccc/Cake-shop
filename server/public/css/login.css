@@ -75,3 +75,8 @@
   line-height: 20px;
   font-size: 13px;
 }
+
+#err{
+  display: none;
+  color: red;
+}

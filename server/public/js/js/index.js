@@ -37,35 +37,28 @@ $(function(){
 		prevButton: '.swiper-button-prev'
 
 	}) 
+	
 	$.ajax({
-		url: './json/product.json',
-		type: 'get',
-		dataType: 'json'
-	})
-	.done(function(data) {
-		var cake = [];
-		for(var i in data){
-			if(cake.length==4){
-				break;
+		url:'http://localhost:1234/getindex',
+		type:'post',
+		success:function(data){
+			var html = '';
+			for(var i = 0 ; i <4 ; i++){
+				html += `<li data-id="${data[i].id}">
+							<img src="${data[i].listimg}" />
+							<p>
+								<span>蛋糕</span>
+								<span>-${data[i].type}-</span>
+							</p>
+						</li>`;
 			}
-			if(data[i].type=='cake'){
-				cake.push(data[i]);
-			}
+			$('#fourproduct>ul').html(html);
+
+			$('#fourproduct>ul>li').click(function(){
+				console.log('html/detail.html?'+$(this).attr('data-id'))
+				location.href = 'html/detail.html?'+$(this).attr('data-id');
+			})
 		}
-		var str = '';
-		for(var i in cake){
-			str+=`<li data-id="${cake[i].id}">
-		<img src="${cake[i].listimg}" data-id="${cake[i].id}"/>
-		<p>
-			<span data-id="${cake[i].id}">${cake[i].title}</span>
-			<span data-id="${cake[i].id}">-${cake[i].etitle}-</span>
-		</p>
-	</li>`;
-		}
-		$('#fourproduct>ul').html(str);
-		
-		$('#fourproduct li').click(function(){
-			location.href = '../../html/detail.html?'+$(this).attr('data-id');
-		})
 	})
+	
 })

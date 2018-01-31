@@ -80,6 +80,7 @@
   overflow: hidden;
   font-size: 13px;
   color: #9c9f9f;
+  position: relative
 }
 
 .registerform > p > a {
@@ -115,7 +116,7 @@
 
 .checkboxed {
   position: absolute;
-  bottom: 87px;
+  bottom: 82px;
   display: none;
 }
 
@@ -154,3 +155,9 @@
   line-height: 24px;
   margin-left: 2px;
 }
+
+#phoneErr,#validatePwd,#vcode{
+  color: red;
+  display: none;
+}
+

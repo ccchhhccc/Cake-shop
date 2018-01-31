@@ -14,8 +14,9 @@
 				<div class="loginright">
 					<h3>会员登录</h3>
 					<p>MEMBER&emsp;LOGIN</p>
-					<input type="text" placeholder="手机号" /><br>
-					<input type="text" placeholder="密码" /><br>
+					<input type="text" placeholder="手机号" class="phone"/><br>
+					<input type="password" placeholder="密码" class="password"/><br>
+					<p id="err">账号或密码错误</p>
 					<a class="tologin">立即登录</a><br>
 					<p><span class="forgetpwd">忘记密码？</span><span class="registerAccound">注册账号</span></p>
 					<p class="infomation">老网站会员请使用注册时预留手机号码登陆，原登陆密码不变。</p>
@@ -25,11 +26,5 @@
 		<div id="bottom"></div>
 	</body>
 </html>
-<script src="../js/require.js" data-main="../js/app" defer aysnc="true"></script>
-<script src="../js/lib/jquery-1.11.3.js"></script>
-<script>
-	$(function(){
-		$('#top').load('header.html');
-		$('#bottom').load('footer.html');
-	})
-</script>
+<script src="../js/lib/jquery.js"></script>
+<script src="../js/js/login.js"></script>

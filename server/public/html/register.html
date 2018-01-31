@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div id="top"></div>
+		<div id="registerbox">
+			<div class="registerform">
+				<h3>会员注册</h3>
+				<em>MEMBER&emsp;REGISTER</em>
+				<input type="text" class="phoneNum" placeholder="手机号"/><b id='phoneErr'>手机号码不正确</b><br />
+				<input type="text" class="validataCode" placeholder="验证码"/><a class="sendCode">发送验证码</a><b id='vcode'>验证码错误</b><br />
+				<input type="password" class="pwd" placeholder="设置密码"/><b>密码必须是6-20位字符，可使用字母、数字</b><br />
+				<input type="password" class="makepwd" placeholder="验证密码"/><b id="validatePwd">两次密码不同</b><br />
+				<p>
+					<i class="checkbox"></i>
+					<span class="read">阅读并同意</span>
+					<a>《法颂用户服务协议》</a>
+				</p>
+				<a class="btn">提交注册</a>
+				<img src="../../imgs/reg_pwd.png" class="first"/>
+				<img src="../../imgs/reg_pwd.png" class="second"/>
+				<img src="../../imgs/checkboxed.png" class="checkboxed" />
+			</div>
+			
+			<div id="go_login">
+				<img src="../../imgs/go_login.png" class="door"/>
+				<p>我已经注册，现在就<a href="login.html">登录</a></p>
+			</div>
+			
+		</div>
+		<div id="bottom"></div>
+	</body>
+</html>
+<script src="../js/lib/jquery.js"></script>
+<script src="../js/js/register.js"></script>
