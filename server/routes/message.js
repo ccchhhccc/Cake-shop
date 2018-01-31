@@ -1,8 +1,8 @@
 const SMSClient = require('@alicloud/sms-sdk')
  
 // ACCESS_KEY_ID/ACCESS_KEY_SECRET 根据实际申请的账号信息进行替换
-const accessKeyId = 'youKeyId'
-const secretAccessKey = 'youAccessKey'
+const accessKeyId = ''
+const secretAccessKey = ''
  
 //在云通信页面开通相应业务消息后，就能在页面上获得对应的queueName,不用填最后面一段
 const queueName = 'Alicom-Queue-1092397003988387-'
