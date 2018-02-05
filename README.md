@@ -13,6 +13,8 @@ server服务器
 
 |__package.json包管理
 
+|__server.js后台
+
 ## 安装
 
 进入server目录
@@ -20,11 +22,25 @@ server服务器
 npm install
 ```
 
+## 申请阿里云短信服务
+https://dayu.aliyun.com/product/sms?spm=a3142.7791109.0.0.4eff69290s9sbZ
+
 ## 进入server/routes/message.js填写阿里云短信服务的秘钥
 ```js
 // ACCESS_KEY_ID/ACCESS_KEY_SECRET 根据实际申请的账号信息进行替换
 const accessKeyId = 'youKeyId'
 const secretAccessKey = 'youAccessKey'
+```
+
+## 进入server/routes/send.js填写阿里云短信签名和使用的模板
+```js
+ //发送短信
+smsClient.sendSMS({
+    PhoneNumbers: req.body.phone,
+    SignName: '阿里云短信签名',
+    TemplateCode: '阿里云短信模板',
+    TemplateParam: `{"code":"${num}"}`
+})
 ```
 
 ## 运行程序
